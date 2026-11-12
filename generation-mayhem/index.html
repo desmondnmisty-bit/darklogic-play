@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<title>Generation Mayhem (pre-Foundry) — Dark Logic Studios</title>
+		<title>Generation Mayhem — Dark Logic Studios</title>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -97,7 +97,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":146351888,"index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":164044176,"index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -179,7 +179,7 @@ const engine = new Engine(GODOT_CONFIG);
 	} else {
 		setStatusMode('progress');
 		(async function () {
-			const PARTS = 4, TOTAL = 146351888;
+			const PARTS = 4, TOTAL = 164044176;
 			const buf = new Uint8Array(TOTAL); let off = 0;
 			statusProgress.max = TOTAL;
 			const initP = engine.init('index');
